@@ -13,5 +13,13 @@
 //= require rails-ujs
 //= require turbolinks
 //= require_tree .
-//= require bootstrap-sprockets
 //= require jquery
+//= require bootstrap-sprockets
+
+$(document).ready(function() {
+  setTimeout(function() {
+    $('.alerts').fadeOut('slow', function() {
+      $(this).remove();
+    })
+  }, 3000);
+});
