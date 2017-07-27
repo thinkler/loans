@@ -33,8 +33,9 @@ gem 'devise'
 gem 'haml'
 gem 'bootstrap-sass'
 gem 'jquery-rails'
-gem 'rspec'
+gem 'rspec-rails'
 gem 'faker'
+gem 'factory_girl_rails'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
